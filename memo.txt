@@ -1,0 +1,38 @@
+1. USER
+    1. delete user accouts  ----> 14. Delete my accout
+    2. browse contact list  ----> 2. Browse contact list
+    3. ------ block list    ----> 5. Browse to block list
+    4. add user into contact list   ----> 1. Add to contact list
+    5. ------------- block list     ----> 4. Add to block list
+    6. delete user from contact list----> 3. Delete someone from your contact list
+    7. ---------------- block list  ----> 6. Delete someone from your block list
+    8. browse current chat lists (10 chats in chronological order initially) ----> 7. Browse current chat
+    9. start new chat (need to select initial members) ----> 8. Start new chat
+    10. delete someone from my chat list ----> 9. Manage chatting members
+    11. delete my accout ----> 15. Delete my accout
+
+2. CHATS
+    1. members can be modified by initial sender ####(see USER 10)
+    2. chats can be deleted by initial sender  ----> 10. Delete chats
+    3. viewer shows the latest 10 messages (will be able to load more when promoted)   ----> 11. Browse chat messages
+    4. messages in chat are displayed in chronological order(timestamp) ####(see CHATS 3)
+    5. when sb is added to a chat, his chat list will be updated #### (see CHATS 3)
+    6. when become a member, all chat messages will be accessible to the new member #### (see CHATS 3)
+    
+3. MESSAGES
+    1. chat members are able to create new messages ----> Write a new message  ----> 12. Write a new message
+    2. ------------------------- edit -----------   ----> 13. Edit a message
+    2. ------------------------ delete messages ----> 14. Delete chat messages (only those they wrote)
+    3. message has an author, creation time, context 
+    
+    
+    
+Qestions:
+1) delete accout: 
+what does "The system will check whether there are
+any other records referring to this account, like the ownership on
+some groups or publications" mean?  
+DO we need to check if the user is other's contact lists or something like that?
+Or we can delete it anyway since some of the tables have "on delete cascade" ?
+
+2) 
